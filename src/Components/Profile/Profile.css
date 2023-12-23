@@ -1,0 +1,218 @@
+body{
+    background-color: #EBF3E7;
+    font-family: 'Nunito Sans';
+}
+
+.logo-profile{
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+.menu-logo{
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+.profile{
+    position: relative;
+    margin-left: -30%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header{
+    color: #000;
+    font-size: 1.75rem;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 2%;
+
+}
+
+.profile-subheader{
+    color: #515151;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    margin-top: 0%;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+input[id=email]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(../Login/Icon_email.png);
+    background-position: 15px 23px; 
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=fullname]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(../Login/Icon_email.png);
+    background-position: 15px 23px; 
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=password]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(../Login/Icon_Password.png);
+    background-position: 15px 18px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=confirmpassword]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(../Login/Icon_Password.png);
+    background-position: 15px 18px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input:hover {
+    border: 0.5px solid #333;
+}
+
+::placeholder {
+    color: #8A8585;
+    font-size: 0.9rem;
+    font-family: 'Nunito Sans';
+}
+
+.field-header{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+
+/* Positioning for sections */
+.email-address{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.full-name{
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.password{
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.change-password{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration-line: underline;
+    margin-left: 20%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+/* Buttons */
+.signUp-button{
+    font-family: 'Nunito Sans';
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1.1rem;
+    border: 3px solid hsl(104, 21%, 68%);
+    background: #EBF3E7;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 8rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    margin-left: 18%;
+    margin-top: 3%;
+    background-image:url(../Login/Icon_LoginArrow.png);
+    background-position: 85px 11px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding: 6px 30px 6px 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.signUp-button:hover {
+    background: #dae7d4;
+    background-image:url(../Login/Icon_LoginArrow.png);
+    background-position: 85px 11px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+}
+
+.signOut{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-decoration-line:underline;
+}
+
+b{
+    color: #6E8765;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.eye-icon{
+    margin-top: 3%;
+    margin-left: 26%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
