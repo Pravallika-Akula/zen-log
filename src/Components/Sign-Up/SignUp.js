@@ -20,9 +20,17 @@ const SignUp = () => {
                         <label className="field-header">Email</label>
                         <input type="text" id="email" placeholder="you@email.com" />
                     </div>
+                    <div className="full-name">
+                        <label className="field-header">Full Name</label>
+                        <input type="text" id="fullname" placeholder="John Doe" />
+                    </div>
                     <div className="password">    
                         <label className="field-header">Password</label>
                         <input type="text" id="password" placeholder="Enter 6 characters or more" />
+                    </div>
+                    <div className="confirm-password">    
+                        <label className="field-header">Confirm Password</label>
+                        <input type="text" id="confirmpassword" placeholder="Enter password again" />
                     </div>
                     <Link to="/dashboard">
                         <button className="signUp-button">Sign Up</button>
