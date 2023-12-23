@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 
 function Landing() {
     return (
-
+        
         <div className="Landing">
-            
+
+            <head>
+                <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet' />
+            </head>
+
             <div className="button-container">
                 <Link to="/login">
                     <button className="button-login">Login</button>
