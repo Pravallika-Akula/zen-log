@@ -3,13 +3,15 @@ import "./PastEntries.css";
 
 function PastEntries() {
     return (
-        <div>
-            <p>Menu Button</p>
+        <div className="PastEntries">
+            <img src="/Assets/Icons/menu_button.svg" alt="menu icon"/>
             <p>Logo</p>
             <p>My Past Journal Entries</p>
-            <p>Green box</p>
-            <p>Month</p>
-            <p>Entry container</p>
+
+            <div className="rectangle">
+                <p>Month</p>
+                <p>Entry container</p>
+            </div>
         </div>
     );
   }

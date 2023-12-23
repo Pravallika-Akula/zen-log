@@ -27,7 +27,7 @@ function JournalEntry() {
                 <img src="/Assets/Icons/emoji_3.svg" alt="emoji 3"/>
                 <img src="/Assets/Icons/emoji_4.svg" alt="emoji 4"/>
                 <img src="/Assets/Icons/emoji_5.svg" alt="emoji 5"/>
-                {/* make a bit smaller */}
+                {/* make a bit smaller and clickable*/}
                 <p>1 2 3 4 5</p>
                 {/* add spacing */}
 
