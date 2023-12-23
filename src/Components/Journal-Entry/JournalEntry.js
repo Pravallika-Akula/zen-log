@@ -9,9 +9,9 @@ function JournalEntry() {
     return (
         <div className="JournalEntry">
 
-            <div className="rectangle">
+            <div className="je-rectangle">
 
-                <div className="exit-button">
+                <div className="je-exit-button">
                     <Link to="/calendar">
                         <img src="/Assets/Icons/exit.svg" alt="exit button"/>
                     </Link>
@@ -31,8 +31,8 @@ function JournalEntry() {
                 <p>1 2 3 4 5</p>
                 {/* add spacing */}
 
-                <div className="rectangle2">
-                    <div className="rectangle3">
+                <div className="je-rectangle2">
+                    <div className="je-rectangle3">
                         <p>Describe your day in one word: <input type="text" /></p>
                     </div>
 
@@ -43,9 +43,9 @@ function JournalEntry() {
                 </div>
             </div>
 
-            <div className="save-button">
+            <div className="je-save-button">
                 <Link to="/calendar">
-                    <button className="button-login">Save Entry</button>
+                    <button className="je-save-button-style">Save Entry</button>
                 </Link>
                 {/* move under rectangle */}
             </div>
