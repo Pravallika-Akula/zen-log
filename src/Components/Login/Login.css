@@ -1,0 +1,190 @@
+body{
+    background-color: #EBF3E7;
+    font-family: 'Nunito Sans';
+}
+
+.logo{
+    background-image:url(./logo_dark.png);
+    height: 90px;
+    background-position: 5px 11px; 
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+
+.login{
+    position: relative;
+    margin-left: -30%;
+    margin-top: -4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-header{
+    color: #000;
+    font-size: 1.75rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.login-subheader{
+    color: #515151;
+    font-size: 1.3rem;
+    font-weight: 400;
+    position: relative;
+    margin-top: 0%;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+input[id=email]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(./Icon_email.png);
+    background-position: 15px 23px; 
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=password]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(./Icon_Password.png);
+    background-position: 15px 18px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=remember]{
+    margin-left:-138px; /* moves box to left of text */
+    margin-top: 0px;
+    /* border-radius: 0.25rem; */
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    border: 0;
+}
+
+input:hover {
+    border: 0.5px solid #333;
+}
+
+::placeholder {
+    color: #8A8585;
+    font-size: 0.9rem;
+    font-family: 'Nunito Sans';
+}
+
+.field-header{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+
+.field-header-remember{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+
+/* Positioning for sections */
+.email-address{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.password{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration-line: underline;
+    margin-left: 20%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+.remember-me{
+    margin-left: 3%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction:row;
+}
+
+/* Buttons */
+.login-button{
+    font-family: 'Nunito Sans';
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1.1rem;
+    border: 3px solid hsl(104, 21%, 68%);
+    background: #EBF3E7;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 8rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    margin-left: 18%;
+    margin-top: 3%;
+    background-image:url(./Icon_LoginArrow.png);
+    background-position: 85px 11px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding: 6px 30px 6px 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-button:hover {
+    background: #dae7d4;
+    background-image:url(./Icon_LoginArrow.png);
+    background-position: 85px 11px; 
+    background-size: 21px;
+    background-repeat: no-repeat;
+}
+
+.sign-up{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 23%;
+    margin-top: 5%;
+    text-decoration-line:none;
+}
+
+b{
+    color: #6E8765;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+    font-weight: 800;
+}
