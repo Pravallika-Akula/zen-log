@@ -15,13 +15,13 @@
     );
 }
 
-.button-container {
+.landing-button-container {
     display: flex;
     justify-content: flex-end;
     padding: 30px 40px;
 }
   
-.button-login {
+.landing-button-login {
     display: inline-block;
     margin-left: 15px; 
     padding: 15px 24px;
@@ -38,12 +38,12 @@
     min-width: 150px;
 }
   
-.button-login:hover {
+.landing-button-login:hover {
     background-color: #1A1D1D; 
     color: #FBFFF9; 
 }
 
-.button-signup {
+.landing-button-signup {
     display: inline-block;
     margin-left: 15px; 
     padding: 15px 24px;
@@ -60,18 +60,18 @@
     min-width: 150px;
 }
   
-.button-signup:hover {
+.landing-button-signup:hover {
     background-color: #1A1D1D; 
     color: #FBFFF9;
 }
 
-.logo {
+.landing-logo {
     display: flex;
     flex-direction: column; 
     align-items: center; 
 }
 
-.logo img.smaller-image {
+.landing-logo img.smaller-image {
     width: 48%; 
     height: auto;
 }

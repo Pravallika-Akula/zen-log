@@ -8,3 +8,34 @@
     height: 100vh;
     background: #3D473F;
 }
+
+.c-header {
+  display: flex;
+  margin-top: 10px;
+}
+.c-menu {
+  margin-left: 10px;
+
+}
+.c-logo {
+    margin-left: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.c-logo img.smaller-image {
+  width: 20%; 
+  height: auto;
+}
+
+.c-title-text {
+    color: #FBFFF9;
+    font:  600 28px 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    justify-content: center;
+}

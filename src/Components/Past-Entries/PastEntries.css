@@ -9,12 +9,51 @@
     background: #EBF3E7;
 }
 
-.rectangle {
+.pe-rectangle {
   width: 80%;
   height: 80%;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 30px;
   border-radius: 20px;
   background: #3D473F;
-  text-align: center;
+}
+
+.pe-rectangle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.pe-header {
+  display: flex;
+  margin-top: 10px;
+}
+.pe-menu {
+  margin-left: 10px;
+
+}
+.pe-logo {
+    margin-left: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.pe-logo img.smaller-image {
+  width: 20%; 
+  height: auto;
+}
+
+.pe-title-text {
+    color: #1C2120;
+    font:  600 28px 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.pe-entry {
+  width: 80%;
+  height: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 20px;
+  background: #EBF3E7;
 }
