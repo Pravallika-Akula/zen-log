@@ -3,7 +3,7 @@ body{
     font-family: 'Nunito Sans';
 }
 
-.logo{
+.s-logo{
     background-image:url(../Login/logo_dark.png);
     height: 90px;
     background-position: 5px 11px; 
@@ -13,8 +13,8 @@ body{
 
 .signUp{
     position: relative;
-    margin-left: -35%;
-    margin-top: -5%;
+    margin-left: -40%;
+    margin-top: -4%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,12 +35,12 @@ body{
     margin-top: 0%;
 }
 
-.form-items{
+.s-form-items{
     display: flex;
     flex-direction: column;
     position: relative;
     margin-left: 19%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 input[id=email]{
@@ -53,7 +53,7 @@ input[id=email]{
     font-family: 'Nunito Sans';
     font-size: 0.8rem;
     background-image:url(../Login/Icon_email.png);
-    background-position: 15px 23px; 
+    background-position: 15px 16px; 
     background-size: 22px;
     background-repeat: no-repeat;
     padding: 6px 20px 6px 55px;
@@ -69,7 +69,7 @@ input[id=fullname]{
     font-family: 'Nunito Sans';
     font-size: 0.8rem;
     background-image:url(../Login/Icon_email.png);
-    background-position: 15px 23px; 
+    background-position: 15px 16px; 
     background-size: 22px;
     background-repeat: no-repeat;
     padding: 6px 20px 6px 55px;
@@ -85,7 +85,7 @@ input[id=password]{
     font-family: 'Nunito Sans';
     font-size: 0.8rem;
     background-image:url(../Login/Icon_Password.png);
-    background-position: 15px 18px; 
+    background-position: 15px 13px; 
     background-size: 21px;
     background-repeat: no-repeat;
     padding: 6px 20px 6px 55px;
@@ -101,7 +101,7 @@ input[id=confirmpassword]{
     font-family: 'Nunito Sans';
     font-size: 0.8rem;
     background-image:url(../Login/Icon_Password.png);
-    background-position: 15px 18px; 
+    background-position: 15px 13px; 
     background-size: 21px;
     background-repeat: no-repeat;
     padding: 6px 20px 6px 55px;
@@ -117,7 +117,7 @@ input:hover {
     font-family: 'Nunito Sans';
 }
 
-.field-header{
+.s-field-header{
     color: #515151;
     font-size: 1rem;
     font-weight: 400;
@@ -125,7 +125,7 @@ input:hover {
     margin-bottom: 0.2rem;
 }
 
-.field-header-remember{
+.s-field-header-remember{
     color: #515151;
     font-size: 1rem;
     font-weight: 400;
@@ -133,25 +133,25 @@ input:hover {
 }
 
 /* Positioning for sections */
-.email-address{
+.s-email-address{
     margin-top: 0%;
     display: flex;
     flex-direction: column;
 }
 
-.full-name{
+.s-full-name{
     margin-top: 2.5%;
     display: flex;
     flex-direction: column;
 }
 
-.password{
+.s-password{
     margin-top: 2.5%;
     display: flex;
     flex-direction: column;
 }
 
-.confirm-password{
+.s-confirm-password{
     margin-top: 2.5%;
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@ input:hover {
     width: 8rem;
     height: 2.5rem;
     flex-shrink: 0;
-    margin-left: 18%;
+    margin-left: 13%;
     margin-top: 3%;
     background-image:url(../Login/Icon_LoginArrow.png);
     background-position: 85px 11px; 
@@ -188,11 +188,11 @@ input:hover {
     background-repeat: no-repeat;
 }
 
-.login{
+.s-login{
     color: #515151;
     font-size: 1rem;
     font-weight: 400;
-    margin-left: -45%;
+    margin-left: 20%;
     margin-top: 3%;
     text-decoration-line:none;
 }

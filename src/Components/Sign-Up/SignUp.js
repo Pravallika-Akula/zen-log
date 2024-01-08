@@ -10,26 +10,26 @@ const SignUp = () => {
                 <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet' />
             </head>
             <body>
-                <div className="logo"></div>
+                <div className="s-logo"></div>
                 <div className="signUp">
                     <h1 className="signUp-header">Welcome to ZenLog!</h1> 
                     <p className="signUp-subheader">Please sign in to begin writing</p> 
                 </div>
-                <div className="form-items">
-                    <div className="email-address">
-                        <label className="field-header">Email</label>
+                <div className="s-form-items">
+                    <div className="s-email-address">
+                        <label className="s-field-header">Email</label>
                         <input type="text" id="email" placeholder="you@email.com" />
                     </div>
-                    <div className="full-name">
-                        <label className="field-header">Full Name</label>
+                    <div className="s-full-name">
+                        <label className="s-field-header">Full Name</label>
                         <input type="text" id="fullname" placeholder="John Doe" />
                     </div>
-                    <div className="password">    
-                        <label className="field-header">Password</label>
+                    <div className="s-password">    
+                        <label className="s-field-header">Password</label>
                         <input type="text" id="password" placeholder="Enter 6 characters or more" />
                     </div>
-                    <div className="confirm-password">    
-                        <label className="field-header">Confirm Password</label>
+                    <div className="s-confirm-password">    
+                        <label className="s-field-header">Confirm Password</label>
                         <input type="text" id="confirmpassword" placeholder="Enter password again" />
                     </div>
                     <Link to="/dashboard">
@@ -37,7 +37,7 @@ const SignUp = () => {
                     </Link>
                 </div>
                 <Link to="/login">
-                    <p className="login">Already have an account?<b>Sign Up</b></p>
+                    <p className="s-login">Already have an account? <b>Login</b></p>
                 </Link> 
             </body>
         </div>  

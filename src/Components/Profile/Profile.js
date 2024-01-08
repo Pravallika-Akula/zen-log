@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Profile.css";
 import {Link} from "react-router-dom";
+import { Password } from 'primereact/password';
 
 var totalEntries = 31;
 var totalMoods = 28;
 var userName = 'Varshni';
-
+var userPass = '123secure';
 
 const Profile = () => {
+    const [value, setValue] = useState(userPass);
+    
     return(
         
         <div>
@@ -21,26 +24,31 @@ const Profile = () => {
                     <h1 className="profile-header">Hey {userName}!</h1> 
                     <p className="profile-subheader">You’ve made a total of {totalEntries} journal entries & logged your mood for {totalMoods} days.</p> 
                 </div>
-                <div className="form-items">
-                    <div className="email-address">
-                        <label className="field-header">Email</label>
+                <div className="p-form-items">
+                    <div className="p-email-address">
+                        <label className="p-field-header">Email</label>
                         <input type="text" id="email" placeholder="you@email.com" />
                     </div>
-                    <div className="full-name">
-                        <label className="field-header">Full Name</label>
+                    <div className="p-full-name">
+                        <label className="p-field-header">Full Name</label>
                         <input type="text" id="fullname" placeholder="John Doe" />
                     </div>
-                    <div className="password">    
-                        <label className="field-header">Password</label>
-                        <input type="text" id="password" placeholder="*********" />
-                        <img src="/Assets/Icons/open_eye.svg" alt="eye button" className="eye-icon"></img>
+                    <div className="p-password password2">    
+                        <label className="password-field-header">Password</label>
+                        <div className="card flex justify-content-center">
+                            <Password  value={value} onChange={(e) => setValue(e.target.value)} feedback={false} tabIndex={1} toggleMask />
+                        </div>    
                     </div>
                     <Link to="/dashboard">
-                        <p className="change-password">change password</p>
+                        <p className="p-change-password">change password</p>
                     </Link>
                 </div>
+
+                
+                
+
                 <Link to="/">
-                <p className="signOut">Sign Out of My Account</p>
+                <p className="p-signOut">Sign Out of My Account</p>
                 </Link>
             </body>
         </div>  
