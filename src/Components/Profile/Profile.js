@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Profile.css";
 import {Link} from "react-router-dom";
 import { Password } from 'primereact/password';
+import { signOut, getAuth } from "firebase/auth"
 
 var totalEntries = 31;
 var totalMoods = 28;
@@ -9,7 +10,17 @@ var userName = 'Varshni';
 var userPass = '123secure';
 
 const Profile = () => {
+    
     const [value, setValue] = useState(userPass);
+
+    const auth = getAuth()
+    async function handleSignOut(){
+        try {
+            await signOut(auth);
+        } catch (error) {
+            console.log(error)
+        }
+    }
     
     return(
         
@@ -44,12 +55,12 @@ const Profile = () => {
                     </Link>
                 </div>
 
-                
-                
 
-                <Link to="/">
-                <p className="p-signOut">Sign Out of My Account</p>
-                </Link>
+                <button onClick={() => {handleSignOut()}}>
+                    <p className="p-signOut">Sign Out of My Account</p>
+                </button>
+                
+                
             </body>
         </div>  
     
