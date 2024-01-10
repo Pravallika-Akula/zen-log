@@ -59,7 +59,23 @@ input[id=email]{
     padding: 6px 20px 6px 55px;
 }
 
-input[id=fullname]{
+input[id=firstname]{
+    border-radius: 0.25rem;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 0.8rem;
+    background-image:url(../Login/Icon_email.png);
+    background-position: 15px 16px; 
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 55px;
+}
+
+input[id=lastname]{
     border-radius: 0.25rem;
     background: #FFF;
     box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
