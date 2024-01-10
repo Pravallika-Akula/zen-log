@@ -56,8 +56,8 @@ const Profile = () => {
                 </div>
 
 
-                <button onClick={() => {handleSignOut()}}>
-                    <p className="p-signOut">Sign Out of My Account</p>
+                <button className="p-signOut" onClick={() => {handleSignOut()}}>
+                    <p >Sign Out of My Account</p>
                 </button>
                 
                 
