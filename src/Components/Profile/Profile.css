@@ -227,6 +227,12 @@ input:hover {
     margin-left: 12%;
     margin-top: 5%;
     text-decoration-line:underline;
+    background-color: transparent;
+    border: none;
+}
+
+.p-signOut:hover{
+    color: #3c3c3c;
 }
 
 b{
