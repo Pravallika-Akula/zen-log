@@ -3,6 +3,7 @@ import "./Landing.css";
 import { Link } from "react-router-dom";
 
 function Landing() {
+    
     return (
         
         <div className="Landing">
@@ -24,6 +25,7 @@ function Landing() {
                 <img src="/Assets/zenlog_logo.svg" style={{marginLeft: 20}} alt="Zenlog Logo" />
                 <img src="/Assets/leaf_landing.svg" className="smaller-image" alt="Leaf" />
             </div>
+            
 
         </div>   
 
